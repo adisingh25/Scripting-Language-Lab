@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery Store</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div style="margin: 5em;">
+        <center><h1>Welcome to Bakery World</h1></center><br><br>
+        <label>Enter the number of Cakes : </label>
+        <input id="cakes" value="" type="number" placeholder="Rs 220/per kg" style="height: 30px; width: 500px;"><br><br>
+        <label>Enter the number of Cookies : </label>
+        <input id="cookies" value="" type="number" placeholder="Rs 250/per packet" style="height: 30px; width: 500px;"><br><br>
+        <label>Enter the number of  Breads : </label>
+        <input id="breads" value="" type="number" placeholder="Rs 50/per loaf" style="height: 30px; width: 500px;"><br><br>
+        <button onclick="generateBill()" style="height: 30px; width: 100px;">Generate Bill</button>
+    </div>
+    <hr>
+    <div style="margin: 5em;" >
+        <h2>Billing Amount</h2>
+        <input id="bill" value="" type="number" style="height: 30px; width: 500px;" value="">
+        <button onclick ="payNow()" style="height: 30px; width: 100px;">Pay Now</button>
+    </div>
+
+</body>
+</html>

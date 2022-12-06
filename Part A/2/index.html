@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing Portal</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <hr>
+    <div>
+        <label>Item Name : </label><br><br>
+        <input type="text" for="itemaname" id="itemname" value=""><br><br>
+        <label>Item Price : </label><br><br>
+        <input type="number" for="itemprice" id="itemprice" value="0.0"><br><br>
+        <label>Item Quantity : </label><br><br>
+        <input type="number" for="itemquantity" id="itemquantity" value="0"><br><br>
+    </div>
+    <button onclick="generateBill()">Generate My BILL</button>
+    <button onclick="payNow()">Pay Now</button>
+    <hr><br>
+    <div id="billArea" hidden>
+        <label>Total amount to be paid is : </label>
+        <input for="amount" id="amount" value="0.0">
+    </div>
+   
+    
+</body>
+</html>
+
